@@ -1,8 +1,7 @@
-package com.ph41626.and103_lab5;
+package com.ph41626.and103_lab5.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Dialog;
@@ -15,7 +14,6 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,6 +21,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.ph41626.and103_lab5.Adapter.RecyclerViewDistributorAdapter;
 import com.ph41626.and103_lab5.Model.Distributor;
 import com.ph41626.and103_lab5.Model.Response;
+import com.ph41626.and103_lab5.R;
 import com.ph41626.and103_lab5.Services.HttpRequest;
 import com.ph41626.and103_lab5.Services.Item_Distributor_Handle;
 

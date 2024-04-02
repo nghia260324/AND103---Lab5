@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/products"
+        android:icon="@drawable/baseline_widgets"
+        android:title="Products"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/distributors"
+        android:icon="@drawable/baseline_supervised_user_circle"
+        android:title="Distributors"
+        app:showAsAction="always"/>
+</menu>
